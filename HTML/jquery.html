@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Efek Slide</title>
+    <style>
+div.pesan{
+    height: 120px;
+display: none;
+}
+div.pesan,p.flip{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background: lightcoral;
+    border: 1px sandybrown;
+}
+    </style>
+</head>
+<body>
+    <div class="pesan">
+        <p>
+            Sukses adalah kunci kebahagiaan
+            dan kebahagiaan adalah kunci kesuksesan
+        </p>
+        anda akan sukses
+    </div>
+    <p class="flip">
+tampilkan/sembunyikan pesan
+    </p>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $("document").ready(function(){
+        $(".flip").click(function(){
+        $(".pesan").slideToggle("slow");
+        });
+    });
+    </script>
+</body>
+</html>

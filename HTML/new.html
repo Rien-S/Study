@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test 1</title>
+  <link rel="stylesheet" href="new.css">
+    <style>
+    p{color: rgb(250, 250, 250);
+        background-color: aqua;
+        width: 100%;
+        height: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 120%;
+border-radius: 10px
+    }
+        </style>
+        <link rel="stylesheet" href="ResponsiveSlides.js-master/responsiveslides.css">
+  <link rel="stylesheet" href="demo.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="ResponsiveSlides.js-master/responsiveslides.js"></script>
+  <script src="ResponsiveSlides.js-master/responsiveslides.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#slider1").responsiveSlides({
+                maxwidth: 800,
+                speed: 800
+              });
+        });
+        </script>
+</head>
+<body>
+    <P align="center">Header 1</P>
+<div class="head"><h2>Head 2</h2></div>
+<div class="body"><h3>Body 1</h3></div>
+
+ <ul class="body2" id="slider1">
+    <li><img src="3389497-official-call-of-duty-black-ops-4-multiplayer-reveal-trailer_tydm.jpg" alt=""></li>
+    <li><img src="ss_0d619a68898400c9cd59b1afa2e36bd50f12d0b5.jpg" alt=""></li>
+    <li><img src="ss_0e82483676fd6c0ba487ca94df18ab4110552b25.jpg" alt=""></li>
+  </ul>
+<div class="foot"><h2>Footer</h2></div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.judul{
+    font-size: 30pt;
+    color: magenta;
+    background-color: blueviolet;
+    height:100%;
+    width:100%;
+}
+.table{
+    color: aquamarine;
+    background-color: blue;
+    height: 120px;
+}
